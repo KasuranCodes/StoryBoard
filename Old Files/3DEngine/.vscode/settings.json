@@ -1,0 +1,33 @@
+{
+    "files.associations": {
+        "x.h": "c",
+        "sokol_app.h": "c",
+        "typeinfo": "c",
+        "handmademath.h": "c",
+        "stdlib.h": "c",
+        "sdl.h": "c",
+        "sokol_gfx.h": "c",
+        "glfw3.h": "c",
+        "glslparser.h": "c",
+        "functional": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "optional": "c",
+        "system_error": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "projection.h": "c",
+        "vector.h": "c",
+        "sokol_glue.h": "c",
+        "xlib.h": "c",
+        "stdio.h": "c",
+        "gl.h": "c",
+        "glx.h": "c",
+        "sokol_log.h": "c",
+        "temp": "c",
+        "test": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}

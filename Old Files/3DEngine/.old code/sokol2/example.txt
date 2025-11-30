@@ -1,0 +1,4 @@
+Hello, world!
+This is a test file.
+Reading files in C is fun.
+Line 4: end of the example.
