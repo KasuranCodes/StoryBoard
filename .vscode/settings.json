@@ -3,6 +3,8 @@
         "cstdlib": "c",
         "stdio.h": "c",
         "glfw3.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "context.h": "c",
+        "tri.h": "c"
     }
 }

@@ -1,0 +1,14 @@
+#include "tri.h"
+#include "vector.h"
+#include "camera.h"
+#include "objimp.h"
+
+/*---Definitions---*/
+#define MODEL "assets/models/test/thingy.obj"
+// #define MODEL "Models/blue42/blue42.obj"
+
+
+/*---Prototype Functions---*/
+
+
+/*---GLoBAL Declarables---*/

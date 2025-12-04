@@ -3,10 +3,10 @@ SRC = storyboard.c
 OBJ = ${SRC:.c=.o}
 
 CC = cc
-INCS = -I/usr/include/X11 -IHeaders -Ivulkanheaders
-LIBS = -lglfw -lvulkan -ldl -lpthread -lX11 -lXxf86vm -lXrandr -lXi
+INCS = -Isrc -IHeaders
+LIBS = -lglfw -lXi -lGL -lGLU -ldl -lpthread -lm 
 LDFLAGS = ${LIBS}
-CFLAGS = -Wall -Wextra -O2 ${INCS} -Wno-missing-field-initializers -pedantic-errors -Wno-unused-function -Wno-unused-variable
+CFLAGS = -Wall -Wextra -O0 ${INCS} -Wno-missing-field-initializers -pedantic-errors -Wno-unused-function -Wno-unused-variable
 
 all: ${PROG}
 
