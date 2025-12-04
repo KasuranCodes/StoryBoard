@@ -1,9 +1,9 @@
-PROG = x11
-SRC = ${PROG}.c
+PROG = storyboard
+SRC = storyboard.c
 OBJ = ${SRC:.c=.o}
 
 CC = cc
-INCS = -I/usr/include/X11 -IHeaders
+INCS = -I/usr/include/X11 -IHeaders -Ivulkanheaders
 LIBS = -lglfw -lvulkan -ldl -lpthread -lX11 -lXxf86vm -lXrandr -lXi
 LDFLAGS = ${LIBS}
 CFLAGS = -Wall -Wextra -O2 ${INCS} -Wno-missing-field-initializers -pedantic-errors -Wno-unused-function -Wno-unused-variable

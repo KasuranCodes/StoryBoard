@@ -136,7 +136,7 @@ void swapchainCreate(State *state) {
             .imageColorSpace = state->window.swapchain.colorSpace,
             .presentMode = presentMode,
             .minImageCount = clamp(state->config.swapchainBuffering, capabilities.minImageCount, capabilities.maxImageCount ? capabilities.maxImageCount : UINT32_MAX),
-    }, state->config.allocator, &state->window.swapchain.handle), "Couldn't create swapchain")
+    }, state->config.allocator, &state->window.swapchain.handle), "Couldn't create swapchain");
 
     swapchainImagesGet(state);
     swapchainImageViewsCreate(state);

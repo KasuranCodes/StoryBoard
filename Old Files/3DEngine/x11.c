@@ -18,7 +18,7 @@
 #include<GL/glx.h>
 #include<GL/glu.h>
 
-#include "src/main.c"
+#include "src/maintest.c"
 #include "controls.h"
 
 
@@ -99,6 +99,7 @@ int main(int argc, char *argv[]) {
                 windowHeight = gwa.height;
                 windowWidth = gwa.width;
             }
+
             else if (xev.type == KeyPress) {
                 KeySym keysym = XLookupKeysym(&xev.xkey, 0);
                 printf("Key pressed: keycode=%u, keysym=%lu (%s)\n", xev.xkey.keycode, keysym, XKeysymToString(keysym));
